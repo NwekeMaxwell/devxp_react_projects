@@ -1,0 +1,103 @@
+.superContainer {
+  display: flex;
+  flex-direction: column;
+}
+.sliderContainer {
+  display: flex;
+  justify-content: center;
+  // background-color: #612;
+}
+.swiperWrap {
+  .swiper {
+    height: 70%;
+    width: 70%;
+  }
+  .swiper-slide {
+    height: 60%;
+    width: 60%;
+  }
+  .swiper-pagination-bullet-active {
+    background: #000;
+    z-index: 999;
+  }
+}
+.calenderWrap {
+  width: 419px;
+  height: 302.11px;
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+}
+.cal-title {
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  .img {
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #4b465c;
+  border-radius: 8px;
+  height: 35px;
+  width: 100%;
+  cursor: pointer;
+}
+.cal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
+  * {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    span {
+      width: 18px;
+      height: 18px;
+      border-radius: 3px;
+    }
+  }
+  .approve {
+    color: #37cb79;
+    span {
+      border: 1px solid #37cb79;
+    }
+  }
+  .pending {
+    color: #ff9f43;
+    span {
+      border: 1px solid #ff9f43;
+    }
+  }
+  .rejected {
+    color: #ea5455;
+    span {
+      border: 1px solid #ea5455;
+    }
+  }
+}
+.blue {
+  background: rgba(115, 103, 240, 0.2);
+}
+.orange {
+  background: rgba(255, 159, 67, 0.3);
+}

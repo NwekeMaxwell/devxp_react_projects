@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Lifestyle:  3.3 PAYDAY 2022",
+      "subTitle": "15% off min spend SGD 100",
+      "subTitle2": "HOME10",
+      "tag": true,
+      "days": "05",
+      "hours": 16,
+      "mins": 21,
+      "date": "28 Feb - 07 Mar 22",
+      "discount": 10,
+      "reg": "22 Feb 22",
+      "SFP": 100
+    },
+    {
+      "id": 2,
+      "title": "Lifestyle:  3.3 PAYDAY 2022",
+      "subTitle": "15% off min spend SGD 100",
+      "subTitle2": "HOME10",
+      "tag": false,
+      "hours": 17,
+      "mins": 21,
+      "sec": 47,
+      "date": "28 Feb - 07 Mar 22",
+      "discount": 10,
+      "reg": "22 Feb 22",
+      "SFP": 100
+    },
+    {
+      "id": 3,
+      "title": "[CRM Campaign] Sports",
+      "subTitle": "30% + 10% CB (TGIF30)",
+      "tag": false,
+      "hours": "03",
+      "mins": 16,
+      "sec": 21,
+      "date": "18 Feb 22",
+      "discount": 30,
+      "reg": "22 Feb 22",
+      "SFP": 85
+    }
+  ]
+}

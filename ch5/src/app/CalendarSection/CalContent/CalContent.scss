@@ -1,0 +1,65 @@
+.calContent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cal-left {
+  background-image: url("../../../assets//avatar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 133.78px;
+  display: grid;
+  .boxes {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 30px;
+    .eachBox {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      gap: 3px;
+      font-size: 8px;
+      font-weight: 400;
+      text-align: center;
+      .upperBox {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        .miniBox {
+          height: 19.54px;
+          border-radius: 8px;
+        }
+        .boxNumber {
+          position: absolute;
+          font-size: 25px;
+          font-weight: 700;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+}
+.cal-right {
+  //   background-color: #c4a;
+  font-size: 9px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .upper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .lower {
+    display: flex;
+    justify-content: space-around;
+  }
+}
