@@ -19,3 +19,6 @@ Each app is run by running yarn plus the name of your cohort, - the environment.
     yarn ch3-api 
 ```
 We use [MUI](https://mui.com/) for UI. And only when absolutely very neccessary should another UI library or CSS be used directly. MUI has all the component you need
+
+# CH5 figma Assessment:
+https://www.figma.com/file/iI9nSqfySgWRdlVhIq2iQg/Responsive-Dashboard-(Community)?type=design&node-id=0-1&t=b3IR8iFFS9mwGy4F-0
